@@ -70,7 +70,7 @@ func calc(vol int, al float32) (float32, AlcName) {
 
 	name := getAlcName(al)
 
-	fmt.Printf("Вы пьете: %q, %v мл %2.1f%%\n\n", name, vol, al)
+	fmt.Printf("Скорее всего Вы пьете: %q, %v мл %2.1f%%\n\n", name, vol, al)
 	return clearAlk, name
 }
 
